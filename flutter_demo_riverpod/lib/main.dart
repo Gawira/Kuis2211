@@ -3,7 +3,7 @@ import 'package:flutter_demo_riverpod/screens/detail_screen.dart';
 import 'package:flutter_demo_riverpod/screens/main_screen.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 
-final counterProvider = StateProvider<int, int>((ref) => 0);
+
 
 class MyHomePage extends StatelessWidget {
   static const routeName = '/';
